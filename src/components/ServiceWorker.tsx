@@ -6,7 +6,7 @@ export default function ServiceWorker() {
   useEffect(() => {
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+        navigator.serviceWorker.register('./sw.js', { scope: './' })
           .then((registration) => {
             registration.addEventListener('updatefound', () => {
               const newWorker = registration.installing;
