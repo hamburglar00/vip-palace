@@ -28,7 +28,7 @@ export default function LoadingScreen() {
       className={`fixed inset-0 z-50 flex items-center justify-center transition-opacity duration-500
       ${isExiting ? 'animate-fade-out' : ''}`}
       style={{
-        backgroundImage: `url('${getImagePath('/assets/Fondo_h.png')}')`,
+        backgroundImage: `url('${getImagePath('/assets/Fondo_h.webp')}')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

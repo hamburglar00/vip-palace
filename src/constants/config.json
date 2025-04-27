@@ -3,10 +3,10 @@
     "name": "VIP PALACE",
     "subname": "GO BIG, WIN BIGGER!",
     "url": "https://vippalace.com",
-    "backgroundImage": "/assets/Fondo_h.png",
+    "backgroundImage": "/assets/Fondo_h.webp",
     "logo": "/assets/Logo_w_title.png",
     "loadingImage": "/assets/Logo.Carga.png",
-    "loadingBackground": "/assets/Fondo_h.png"
+    "loadingBackground": "/assets/Fondo_h.webp"
   },
   "home": {
     "headline": "",
