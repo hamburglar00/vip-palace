@@ -26,8 +26,15 @@ export default function LoadingScreen() {
   return (
     <div
       className={`fixed inset-0 z-50 flex items-center justify-center transition-opacity duration-500
-      before:absolute before:inset-0 before:bg-[url('/assets/Fondo_h.png')] before:bg-cover before:bg-center before:opacity-50 before:mix-blend-normal
       ${isExiting ? 'animate-fade-out' : ''}`}
+      style={{
+        backgroundImage: `url('${getImagePath('/assets/Fondo_h.png')}')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        opacity: 0.5,
+        mixBlendMode: 'normal'
+      }}
     >
       <div className={`relative flex flex-col items-center ${isExiting ? 'animate-scale-down-fade-out' : ''}`}>
         <Image
