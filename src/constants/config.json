@@ -1,0 +1,108 @@
+{
+  "site": {
+    "name": "VIP PALACE",
+    "subname": "GO BIG, WIN BIGGER!",
+    "url": "https://vippalace.com",
+    "backgroundImage": "/assets/Fondo_h.png",
+    "logo": "/assets/Logo_w_title.png",
+    "loadingImage": "/assets/Logo.Carga.png",
+    "loadingBackground": "/assets/Fondo_h.png"
+  },
+  "home": {
+    "headline": "",
+    "subheadline": "Contáctanos por cualquiera de nuestros canales y aprovecha de bonificaciones exclusivas...",
+    "heroImage": "/assets/hero.png",
+    "underHeadline": "Disfruta y gana en las mejores plataformas!"
+  },
+  "footer": {
+    "siteUrl": "www.vippalace.com",
+    "copyright": "© All rights reserved VipPalace",
+    "icon18": "/assets/icon_18.png"
+  },
+  "contactButtons": [
+    {
+      "label": "TELEGRAM",
+      "icon": "telegram",
+      "bonus": 50,
+      "href": "https://t.me/vippalace"
+    },
+    {
+      "label": "WEB CHAT",
+      "icon": "chat",
+      "bonus": 50,
+      "href": "https://test.com"
+    },
+    {
+      "label": "WHATSAPP",
+      "icon": "whatsapp",
+      "href": "https://wa.me/123456789"
+    }
+  ],
+  "promotions": [
+    {
+      "id": 1,
+      "image": "/assets/black.jpeg",
+      "text": "Game 1",
+      "href": "https://example.com/1"
+    },
+    {
+      "id": 2,
+      "image": "/assets/black.jpeg",
+      "text": "Game 2",
+      "href": "https://example.com/2"
+    },
+    {
+      "id": 3,
+      "image": "/assets/black.jpeg",
+      "text": "Game 3",
+      "href": "https://example.com/3"
+    }
+  ],
+  "userMenu": {
+    "title": "User Name1",
+    "points": "Puntos",
+    "pointsIcon": "/assets/icon-diam.png",
+    "headerLogo": "/assets/Logo.Carga.png",
+    "items": [
+      {
+        "label": "INFO",
+        "options": []
+      },
+      {
+        "label": "PUNTOS",
+        "options": []
+      },
+      {
+        "label": "JUGA EN...",
+        "options": []
+      },
+      {
+        "label": "NUESTRAS REDES",
+        "options": [
+          {
+            "label": "VipPalace.FB",
+            "icon": "facebook",
+            "href": "https://example.com"
+          },
+          {
+            "label": "VipPalace.IG",
+            "icon": "instagram",
+            "href": "https://example.com"
+          }
+        ]
+      },
+      {
+        "label": "COMUNIDAD",
+        "options": []
+      },
+      {
+        "label": "SORTEOS",
+        "options": []
+      },
+      {
+        "label": "SOPORTE",
+        "options": []
+      }
+    ]
+  }
+}
