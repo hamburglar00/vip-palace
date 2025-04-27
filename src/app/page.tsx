@@ -27,13 +27,13 @@ export default function Home() {
       <LoadingScreen />
 
       <main
-        className={`min-h-screen relative text-white flex flex-col items-center ${
+        className={`h-full w-full relative text-white flex flex-col items-center ${
           showContent ? "animate-scale-up-fade-in" : "opacity-0"
         }`}
       >
         {/* Background Image */}
         <div
-          className="absolute inset-0 z-0 animate-background-zoom"
+          className="fixed inset-0 z-0 animate-background-zoom"
           style={{
             backgroundImage: `url(${getImagePath(config.site.backgroundImage)})`,
             backgroundSize: "cover",
@@ -44,9 +44,9 @@ export default function Home() {
         />
 
         {/* Content Container */}
-        <div className="relative z-10 flex flex-col min-h-screen w-full">
+        <div className="relative z-10 flex flex-col h-full w-full">
           {/* Main Content */}
-          <div className="flex-1 flex flex-col items-center px-4 pt-6">
+          <div className="flex-1 flex flex-col items-center px-4 pt-6 pb-20">
             {/* Header Section */}
             <Header />
 

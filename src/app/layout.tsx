@@ -17,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <body className="h-full w-full bg-[#1a0a2e]">{children}</body>
+      <body className="h-screen w-full bg-[#1a0a2e] overflow-hidden">
+        <div className="h-full w-full overflow-y-auto">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
