@@ -59,21 +59,39 @@
     }
   ],
   "userMenu": {
-    "title": "User Name1",
-    "points": "Puntos",
+    "title": "Vip Palace",
+    "points": "",
     "pointsIcon": "/assets/icon-diam.png",
     "headerLogo": "/assets/Logo.Carga.png",
     "items": [
       {
         "label": "INFO",
+        "options": [
+          {
+            "label": "Carga mínima: $2.000 <br> Retiro mínimo: $5.000 <br> Sin cronogramas. Retira el total en el día. <br> Cargas automáticas 24/7 con nuestro asistente virtual <br> Atención personalizada.",
+            "icon": "info",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "label": "PLATAFORMAS",
         "options": []
       },
       {
-        "label": "PUNTOS",
+        "label": "MIS PUNTOS",
         "options": []
       },
       {
-        "label": "JUGA EN...",
+        "label": "SORTEOS",
+        "options": []
+      },
+      {
+        "label": "COMUNIDAD",
+        "options": []
+      },
+      {
+        "label": "SOPORTE",
         "options": []
       },
       {
@@ -82,26 +100,14 @@
           {
             "label": "VipPalace.FB",
             "icon": "facebook",
-            "href": "https://example.com"
+            "href": ""
           },
           {
             "label": "VipPalace.IG",
             "icon": "instagram",
-            "href": "https://example.com"
+            "href": ""
           }
         ]
-      },
-      {
-        "label": "COMUNIDAD",
-        "options": []
-      },
-      {
-        "label": "SORTEOS",
-        "options": []
-      },
-      {
-        "label": "SOPORTE",
-        "options": []
       }
     ]
   },

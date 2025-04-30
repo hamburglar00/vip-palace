@@ -72,7 +72,7 @@ export default function UserMenu({ onClose }: UserMenuProps) {
                 height={20}
                 className="w-5 h-5"
               />
-              <p className="text-[#D4A155] text-sm">10.000 {config.userMenu.points}</p>
+              <p className="text-[#D4A155] text-sm">{config.userMenu.points}</p>
             </div>
           </div>
           <button
@@ -116,7 +116,7 @@ export default function UserMenu({ onClose }: UserMenuProps) {
                       className="block p-1.5 text-sm text-gray-300 hover:text-white hover:bg-[#D4A155]/20 rounded transition-colors duration-200 flex flex-row items-center gap-2"
                     >
                       {option.icon ? getIcon(option.icon) : null}
-                      {option.label}
+                      <span dangerouslySetInnerHTML={{ __html: option.label.replace(/<br\s*\/?>/gi, '<br />') }} />
                     </a>
                   ))}
                 </div>
