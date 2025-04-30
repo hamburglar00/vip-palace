@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { ContactButtonType } from "@/types/contact";
 import { getImagePath } from '../../utils/imagePath';
+import toast from 'react-hot-toast';
+import config from '@/constants/config.json';
 
 const getButtonImage = (icon: string) => {
   switch (icon) {
@@ -26,6 +28,23 @@ export default function ContactButton({
   const buttonImage = getButtonImage(icon);
   if (!buttonImage) return null;
 
+  const handleClick = () => {
+    if (!href) {
+      toast.error(config.notifications.unavailable, {
+        style: {
+          background: '#333',
+          color: '#fff',
+          padding: '16px',
+          borderRadius: '8px',
+          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+        },
+        icon: '⚠️',
+      });
+      return;
+    }
+    window.open(href, "_blank");
+  };
+
   return (
     <div className="relative">
       {bonus && (
@@ -46,7 +65,7 @@ export default function ContactButton({
         </div>
       )}
       <button
-        onClick={() => window.open(href, "_blank")}
+        onClick={handleClick}
         className="relative transition-transform hover:scale-105 z-10"
         style={{
           animation: `pulse-glow-logo 2s ease-in-out infinite`,

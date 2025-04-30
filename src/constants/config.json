@@ -35,7 +35,7 @@
     {
       "label": "WHATSAPP",
       "icon": "whatsapp",
-      "href": "https://wa.me/123456789"
+      "href": ""
     }
   ],
   "promotions": [
@@ -104,5 +104,8 @@
         "options": []
       }
     ]
+  },
+  "notifications": {
+    "unavailable": "No disponible"
   }
 }
