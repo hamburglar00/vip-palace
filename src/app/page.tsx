@@ -68,7 +68,7 @@ export default function Home() {
               <h2 className="text-4xl font-extrabold mb-0 text-center">
                 {config.home.headline}
               </h2>
-              <p className="text-center max-w-lg mt-2 mb-6 mx-3 text-gray-200">
+              <p className="text-center max-w-lg my-2 mx-3 text-gray-200">
                 {config.home.subheadline}
               </p>
             </section>
