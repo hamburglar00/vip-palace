@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaBell } from "react-icons/fa";
 import UserMenu from "../UserMenu";
 
 export default function Header() {
@@ -9,11 +9,12 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-full flex justify-between items-center mb-[-2rem] md:justify-end md:gap-6">
+      <header className="fixed top-0 left-0 right-0 w-full flex justify-between items-center p-4 md:justify-end md:gap-6 z-50 bg-black/50 backdrop-blur-sm">
         <FaBars
-          className="w-10 h-10 cursor-pointer hover:text-yellow-300 transition-colors"
+          className="w-7 h-7 cursor-pointer text-[#E8E6E2] hover:text-yellow-300 transition-colors"
           onClick={() => setIsUserMenuOpen(true)}
         />
+        <FaBell className="w-7 h-7 cursor-pointer text-[#E8E6E2] hover:text-purple-300 transition-colors" />
       </header>
       {isUserMenuOpen && <UserMenu onClose={() => setIsUserMenuOpen(false)} />}
     </>

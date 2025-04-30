@@ -46,7 +46,7 @@ export default function Home() {
         {/* Content Container */}
         <div className="relative z-10 flex flex-col h-full w-full">
           {/* Main Content */}
-          <div className="flex-1 flex flex-col items-center px-4 pt-6 pb-20">
+          <div className="flex-1 flex flex-col items-center px-4 pt-[4rem]">
             {/* Header Section */}
             <Header />
 
@@ -68,18 +68,17 @@ export default function Home() {
               <h2 className="text-4xl font-extrabold mb-0 text-center">
                 {config.home.headline}
               </h2>
-              <p className="text-center max-w-lg mt-2 mb-6 text-gray-200">
+              <p className="text-center max-w-lg mt-2 mb-6 mx-3 text-gray-200">
                 {config.home.subheadline}
               </p>
             </section>
 
             {/* Contact Buttons Section */}
-            <section className="flex flex-col md:flex-row md:max-w-[800px] w-full items-center justify-center gap-4 mx-auto">
+            <section className="flex flex-row items-center justify-center gap-8 mx-auto">
               {config.contactButtons.map(
-                ({ label, icon, bonus, href }, index) => (
-                  <div key={label} className="flex-shrink-0">
+                ({ icon, bonus, href }, index) => (
+                  <div key={icon} className="flex-shrink-0">
                     <ContactButton
-                      label={label}
                       icon={icon}
                       bonus={bonus}
                       href={href}
