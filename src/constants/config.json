@@ -80,7 +80,7 @@
           {
             "label": "GANAMOS",
             "icon": "info",
-            "href": "www.ganamos.biz"
+            "href": "https://www.ganamos.biz/home"
           }
         ]
       },
@@ -96,7 +96,7 @@
         "label": "COMUNIDAD",
         "options": [
           {
-            "label": "RoyalSpin Comunidad",
+            "label": "Vip Palace Comunidad",
             "icon": "info",
             "href": "https://t.me/vippalacebot"
           }
