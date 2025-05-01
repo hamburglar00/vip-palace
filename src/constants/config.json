@@ -76,7 +76,13 @@
       },
       {
         "label": "PLATAFORMAS",
-        "options": []
+        "options": [
+          {
+            "label": "GANAMOS",
+            "icon": "info",
+            "href": "www.ganamos.biz"
+          }
+        ]
       },
       {
         "label": "MIS PUNTOS",
@@ -88,7 +94,13 @@
       },
       {
         "label": "COMUNIDAD",
-        "options": []
+        "options": [
+          {
+            "label": "RoyalSpin Comunidad",
+            "icon": "info",
+            "href": "https://t.me/vippalacebot"
+          }
+        ]
       },
       {
         "label": "SOPORTE",
