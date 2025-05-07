@@ -95,7 +95,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#000000" />
         <meta name="apple-touch-fullscreen" content="yes" />
       </head>
-      <body className="h-screen w-full bg-[#1a0a2e] overflow-hidden">
+      <body className="h-screen w-full bg-black overflow-hidden">
         <div className="h-full w-full overflow-y-auto">
           {children}
         </div>

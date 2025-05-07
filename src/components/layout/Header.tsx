@@ -14,7 +14,7 @@ export default function Header() {
           className="w-7 h-7 cursor-pointer text-[#E8E6E2] hover:text-yellow-300 transition-colors"
           onClick={() => setIsUserMenuOpen(true)}
         />
-        <FaBell className="w-7 h-7 cursor-pointer text-[#E8E6E2] hover:text-purple-300 transition-colors" />
+        <FaBell className="w-7 h-7 cursor-pointer text-[#E8E6E2] hover:text-yellow-300 transition-colors" />
       </header>
       {isUserMenuOpen && <UserMenu onClose={() => setIsUserMenuOpen(false)} />}
     </>
