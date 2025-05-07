@@ -40,8 +40,8 @@ export default function LoadingScreen() {
         <Image
           src={getImagePath(config.site.loadingImage)}
           alt="Vip Palace Loading"
-          width={100}
-          height={100}
+          width={220}
+          height={220}
           priority
           className="animate-pulse-glow-logo"
         />
