@@ -10,9 +10,9 @@
   },
   "home": {
     "headline": "",
-    "subheadline": "Contáctanos por nuestros canales y aprovecha de nuestros bonos exclusivos",
+    "subheadline": "Escríbenos por nuestros canales y no te pierdas nuestros bonos exclusivos",
     "heroImage": "/assets/hero.png",
-    "underHeadline": "Disfruta y gana en las mejores plataformas!"
+    "underHeadline": "¡Disfruta, juga y gana en la mejores plataforma!"
   },
   "footer": {
     "siteUrl": "www.vippalace.com",
@@ -42,20 +42,20 @@
     {
       "id": 1,
       "image": "/assets/black.jpeg",
-      "text": "Game 1",
-      "href": "https://example.com/1"
+      "text": "",
+      "href": "https://www.ganamos.biz/home"
     },
     {
       "id": 2,
       "image": "/assets/black.jpeg",
-      "text": "Game 2",
-      "href": "https://example.com/2"
+      "text": "",
+      "href": "https://www.ganamos.biz/home"
     },
     {
       "id": 3,
       "image": "/assets/black.jpeg",
-      "text": "Game 3",
-      "href": "https://example.com/3"
+      "text": "",
+      "href": "https://www.ganamos.biz/home"
     }
   ],
   "userMenu": {
