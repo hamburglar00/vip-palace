@@ -89,8 +89,10 @@
         "options": []
       },
       {
-        "label": "SORTEOS",
-        "options": []
+        "label": "CAJEROS",
+       "options": [
+          {
+            "label": "Código PILAR: PILARG <br> Código LUNA: VLUNA",
       },
       {
         "label": "COMUNIDAD",
