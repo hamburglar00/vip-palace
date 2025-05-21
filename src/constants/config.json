@@ -92,7 +92,9 @@
         "label": "CAJEROS",
        "options": [
           {
-            "label": "Código PILAR: PILARG <br> Código LUNA: VLUNA",
+            "label": "Código PILAR: PILARG <br> Código LUNA: VLUNA"
+          }
+        ]
       },
       {
         "label": "COMUNIDAD",
