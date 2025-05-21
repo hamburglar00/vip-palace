@@ -41,19 +41,19 @@
   "promotions": [
     {
       "id": 1,
-      "image": "/assets/banner1.jpg",
+      "image": "/assets/banner1.JPG",
       "text": "",
       "href": "https://www.ganamos.biz/home"
     },
     {
       "id": 2,
-      "image": "/assets/banner2.jpg",
+      "image": "/assets/banner2.JPG",
       "text": "",
       "href": "https://www.ganamos.biz/home"
     },
     {
       "id": 3,
-      "image": "/assets/banner3.jpg",
+      "image": "/assets/banner3.JPG",
       "text": "",
       "href": "https://www.ganamos.biz/home"
     }
